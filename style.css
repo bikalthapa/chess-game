@@ -1,0 +1,129 @@
+body{
+	margin-top: 20px;
+	background-color: lightgray;
+}
+.active{
+	background-color: cyan;
+}
+.black{
+	height: 50px;
+	width: 50px;
+	background-color: rgb(128, 128, 128);
+}
+.black:hover{
+	background-color: cyan;
+}
+
+.white{
+	height: 50px;
+	width: 50px;
+	background-color: white;
+}
+.white:hover{
+	background-color: cyan;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.knight{
+	height: 50px;
+	width: 50px;
+	margin: 0px;
+	color: blue;
+}
+.chessboard{
+	width: 400px;
+	padding:40px;
+	margin: auto;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+
+
+/*	<div class="chessboard">
+		<div class="row">
+			<div class="box black" id="R1_C1"></div>
+			<div class="box white" id="R1_C2"></div>
+			<div class="box black" id="R1_C3"></div>
+			<div class="box white" id="R1_C4"></div>
+			<div class="box black" id="R1_C5"></div>
+			<div class="box white" id="R1_C6"></div>
+			<div class="box black" id="R1_C7"></div>
+			<div class="box white" id="R1_C8"></div>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="box white" id="R2_C1" ></div>
+			<div class="box black" id="R2_C2" ></div>
+			<div class="box white" id="R2_C3" ></div>
+			<div class="box black" id="R2_C4" ></div>
+			<div class="box white" id="R2_C5" ></div>
+			<div class="box black" id="R2_C6" ></div>
+			<div class="box white" id="R2_C7" ></div>
+			<div class="box black" id="R2_C8" ></div>
+		</div><br>
+		<div class="row">
+			<div class="box black" id="R3_C1"></div>
+			<div class="box white" id="R3_C2"></div>
+			<div class="box black" id="R3_C3"></div>
+			<div class="box white" id="R3_C4"></div>
+			<div class="box black" id="R3_C5"></div>
+			<div class="box white" id="R3_C6"></div>
+			<div class="box black" id="R3_C7"></div>
+			<div class="box white" id="R3_C8"></div>
+		</div><br>
+		<div class="row">
+			<div class="box white" id="R4_C1"></div>
+			<div class="box black" id="R4_C2"></div>
+			<div class="box white" id="R4_C3"></div>
+			<div class="box black" id="R4_C4"></div>
+			<div class="box white" id="R4_C5"></div>
+			<div class="box black" id="R4_C6"></div>
+			<div class="box white" id="R4_C7"></div>
+			<div class="box black" id="R4_C8"></div>
+		</div><br>
+		<div class="row">
+			<div class="box black" id="R5_C1"></div>
+			<div class="box white" id="R5_C2"></div>
+			<div class="box black" id="R5_C3"></div>
+			<div class="box white" id="R5_C4"></div>
+			<div class="box black" id="R5_C5"></div>
+			<div class="box white" id="R5_C6"></div>
+			<div class="box black" id="R5_C7"></div>
+			<div class="box white" id="R5_C8"></div>
+		</div><br>
+		<div class="row">
+			<div class="box white" id="R6_C1"></div>
+			<div class="box black" id="R6_C2"></div>
+			<div class="box white" id="R6_C3"><img src='bElephant.png' class='knight'></div>
+			<div class="box black" id="R6_C4"></div>
+			<div class="box white" id="R6_C5"></div>
+			<div class="box black" id="R6_C6"></div>
+			<div class="box white" id="R6_C7"></div>
+			<div class="box black" id="R6_C8"></div>
+		</div><br>
+		<div class="row">
+			<div class="box black" id="R7_C1"></div>
+			<div class="box white" id="R7_C2"></div>
+			<div class="box black" id="R7_C3"></div>
+			<div class="box white" id="R7_C4"></div>
+			<div class="box black" id="R7_C5"></div>
+			<div class="box white" id="R7_C6"></div>
+			<div class="box black" id="R7_C7"></div>
+			<div class="box white" id="R7_C8"></div>
+		</div><br>
+		<div class="row">
+			<div class="box white" id="R8_C1"></div>
+			<div class="box black" id="R8_C2"></div>
+			<div class="box white" id="R8_C3"></div>
+			<div class="box black" id="R8_C4"></div>
+			<div class="box white" id="R8_C5"></div>
+			<div class="box black" id="R8_C6"></div>
+			<div class="box white" id="R8_C7"></div>
+			<div class="box black" id="R8_C8"></div>
+		</div><br>
+	</div>*/
