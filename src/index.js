@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +10,32 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+
+// function Parent() {
+//   // Parent constructor
+// }
+
+// Parent.prototype.parentMethod = function () {
+//   console.log("Parent method called");
+// };
+
+// function Child() {
+//   // Call the parent constructor
+//   Parent.call(this);
+// }
+
+// // Set up inheritance
+// Child.prototype = Object.create(Parent.prototype);
+// Child.prototype.constructor = Child;
+
+// Child.prototype.childMethod = function () {
+//   // Call the parent method
+//   this.parentMethod();
+//   console.log("Child method called");
+// };
+
+// const childInstance = new Child();
+// childInstance.childMethod();
